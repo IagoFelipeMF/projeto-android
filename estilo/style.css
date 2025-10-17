@@ -39,6 +39,7 @@ header{
     min-width: 400px;
     max-width: 100%;
     margin: auto;
+    padding-right: 20px;
 }
 header>h1{
     color: var(--cor3);
@@ -64,6 +65,7 @@ nav{
     min-width: 400px;
     max-width: 100%;
     margin: auto;
+    padding-right: 20px;
     
 }
 nav>a{

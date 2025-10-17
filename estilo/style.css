@@ -61,7 +61,7 @@ nav{
     padding: 10px;
     box-shadow: 2px 2px 9px 1px rgba(0, 0, 0, 0.281);
     text-align: center;
-    min-width: 600px;
+    min-width: 450px;
     max-width: 100%;
     margin: auto;
     
@@ -175,8 +175,8 @@ footer{
     text-align: center;
     font-size: 0.8em;
     background-color: #1a4e02;
-    padding: 10px, 20px;
-    min-width: 600px;
+    padding: 3px;
+    min-width: 450px;
     max-width: 100%;
     margin: auto; 
     color: white;

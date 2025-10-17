@@ -36,7 +36,7 @@ header{
     background-image: linear-gradient(to top, var(--cor1), var(--cor4)); text-align: center;
     min-height: 150px;
     padding-top: 40px;
-    min-width: 400px;
+    min-width: 450px;
     max-width: 100%;
     margin: auto;
 }
@@ -51,7 +51,7 @@ header>p{
     color: var(--cor0);
     font-size: 1.2em;
     font-family: var(--fonte-padrão);
-    max-width: 670px;
+    max-width: 400px;
     margin: auto;
     padding-right: 10px;
     padding-left: 10px;

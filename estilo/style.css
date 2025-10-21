@@ -85,15 +85,14 @@ nav>a:hover{
     background-color: var(--cor4);
 }
 main{
-    min-width: 390px;
-    max-width: 650px;
+    
+    
     margin: auto;
-    margin-bottom: 20px;
     background-color: white;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    
+    margin-bottom: 20px;
 
 }
 main h1{

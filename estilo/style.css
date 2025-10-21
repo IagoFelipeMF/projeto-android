@@ -51,7 +51,7 @@ header>p{
     color: var(--cor0);
     font-size: 1.2em;
     font-family: var(--fonte-padrão);
-    max-width: 400px;
+    max-width: 600px;
     margin: auto;
     padding-right: 10px;
     padding-left: 10px;
@@ -85,8 +85,6 @@ nav>a:hover{
     background-color: var(--cor4);
 }
 main{
-    
-    
     margin: auto;
     background-color: white;
     padding: 20px;

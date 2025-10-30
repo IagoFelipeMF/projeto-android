@@ -2,7 +2,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-     min-width: 400px;
+    min-width: 300px;
     max-width: 650px;
     margin: auto;
     margin-bottom: 20px;
@@ -10,6 +10,7 @@ body{
     padding: 20px;
     text-align: justify;
     list-style-position: inside;
+    
     
 }
 body>ul>li{

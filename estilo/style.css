@@ -29,9 +29,6 @@ body{
 a.externo:after{
     content: '\00a0\1F517';
 }
-p{
-
-}
 header{
     background-image: linear-gradient(to top, var(--cor1), var(--cor4)); text-align: center;
     min-height: 150px;

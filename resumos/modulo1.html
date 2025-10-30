@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo</title>
+    
+</head>
+<body>
+    <h1>Títulos e parágrafos</h1>
+    <h2>Comandos utilizados:</h2>
+    <p>Para criação de títulos são utilizadas as tags H sendo elas de &lt;H1&gt; até &lt;H6&gt;</p>
+    Para parágrafos é utilizada a tag p, podendo haver quebra de linha utilizando a tag br
+    <h1>Emojis e simbolos</h1>
+    <h2>Comandos utilizados:</h2>
+    <p>Ao usar os simbolos e emojis são necessarios conhecimento de qual seu referencial, podendo ser buscado online.
+    </p>
+    exemplo: Para criar uma estrela como essa &#x2b50; a referencia é (& #x2b50 sendo necessario tudo junto).
+    <h1>Adição de imagens</h1>
+    <H2>Comandos utilizados:</H2>
+    <p>Ao colocar uma imagem no site existem 3 formas que podem ser utilizadas, sendo elas.</p>
+    <ol>
+        <li>Internas</li>
+       <ul>
+        <li>Sendo baixadas previamente e colocadas como anexo direto na pasta.</li>
+       </ul>
+        <li>De uma pasta interna</li>
+<ul>
+<li>Anexando a imagem baixada em uma pasta criada junto ao site.</li>
+</ul>
+        <li>Externa</li>
+        <ul>
+<li>Pegando o endereço e adicionando ao site.</li>
+        </ul>
+
+    </ol>
+    <p>Para todas essas formas é necessario a utilização do comando img.</p>
+    <h1>Criação do favicon</h1>
+    <h2>Comandos utilizados:</h2>
+    <p>Para criação de um favicon é necessario uma imagem redimensionada para 16/16 e estando como .ico ou q n seja .png/pneg/etc.</p>
+    <p>Ai dessa forma é colocada logo dentro da aba head normalmente acima do title o comando link:favicon, sendo anexada a imagem na href e seu nome no rel.</p>
+   <h1 style="color: red;">
+<marquee behavior="" direction="">Observações importantes</marquee>
+   </h1>
+   <h2 style="background-color: rgb(204, 178, 228);"
+    >Observar sempre na <a href="https://www.w3.org/TR/2014/REC-html5-20141028/obsolete.html#obsolete" target="_blank">w3c</a> para saber quais tags já estão obsoletas, como essa forma q fiz para as letras passarem em "Observações importantes".</h2>
+   <h1>
+    Algumas formatações e seus exemplos (somente as semânticas que são o objetivo do html)
+   </h1>
+   
+    <ol>
+<li><h2>Negrito/Destaque</h2></li>
+<p>Sua tag é &lt;strong&gt; ex:<strong>termo em destaque</strong></p>
+<li><h2>Itálico/Ênfase</h2></li>
+<p>
+Sua tag é &lt;em&gt; ex:<em>temos aqui</em>
+</p>
+<li><h2>Texto marcado</h2></li>
+<p>Sua tag &lt;mark&gt; podendo ser alterada para que todas as tags mark sejam iguais usando o style no começo do cód logo abaixo do title na aba head e adicionando o background color para condicionar a cor de todos os Marks em sua forma base sem o style.
+    <p>
+    ex:<mark>marcar
+        </mark>
+</p>
+
+</p>
+<li><h2>Texto grande e pequeno</h2></li>
+<p>
+Hoje em dia apenas o texto pequeno é condicionado como usual e semantico, nele é usado a tag &lt;small&gt; ex: <small>texto pequeno.</small>
+</p>
+<li><h2>Texto deletado</h2></li>
+<p>
+Sua tag é &lt;del&gt;. Ex:<del>não considerado</del>
+</p>
+<li><h2>Texto inserido</h2></li>
+<p>
+Sua tag é &lt;ins&gt;. Ex:<ins>adicionado depois</ins>
+</p>
+<li><h2>Texto sobrescrito</h2></li>
+<p>
+Sua tag é &lt;sup&gt;. Ex: x<sup>20</sup>+3</p>
+</p>
+<li><h2>Texto subscrito</h2></li>
+<p>
+Sua tag é &lt;sub&gt;. Ex: H<sub>2</sub>O</p>
+</p>
+<li><h2>Código-fonte</h2></li>
+<p>
+Aqui se usam duas tags importantes, uma para colocar o texto em forma como se fosse um código, sendo ela a tag &lt;code&gt; e a outra sendo para que o código possa ser copiado de forma completa passando para o site, sendo ela a tag &lt;pre&gt;. Ex: O comando <code>document.getelementbyid</code> é escrito em linguagem JavaScript.</p>
+        <pre>
+            <code>
+            num = int(input('digite um número'))
+            if num % 2 == 0;
+            print(par)
+            else:
+            print(impar)
+            print(fim do programa)
+        </code>
+</p>
+<li><h2>Citações completas e incompletas</h2></li>
+<p>
+<ul>
+    <li>Completas
+    </li>
+    <p>
+Sua tag é &lt;blockquote&gt; sendo necessario o link do site a ser colocado junto a tag, e logo após colocando a citação. Ex: Essa música representa a quicada em câmera lenta.
+    <blockquote cite="https://www.youtube.com/watch?v=1bOEM3-_0-g&list=RD1bOEM3-_0-g&start_radio=1">
+        Quican quican do em camera lenta.
+    </blockquote>
+    </p>
+    <li>Incompletas
+    </li>
+    <p>
+        Sua tag é &lt;q&gt; somente colocando o texto entre aspas. Ex: Como diria o pai de um amigo : <q>o computador é um burro muito rápido.</q>
+    </p>
+</ul>
+</p>
+<li><h2>Abreviações</h2></li>
+<p>
+A tag mais util que eu considero, sendo ela a &lt;abbr&gt;. Ex: Estou estudando <abbr title="hypertext markup language">html</abbr> e <abbr title="Cascating style sheets">css</abbr>.
+</p>
+<li><h2>Texto invertido</h2></li>
+<p>
+Sua tag é &lt;bdo&gt;. Ex: <bdo dir="rtl">Estou aprendendo a inverter</bdo>
+</p>
+    </ol>
+    <h1>Sobre listas</h1>
+    <h2> Ordenadas</h2>
+    <p>São as listas numéricas e todos os itens dentro sendo colocados dentro das &lt;li&gt; serão organizados podendo ser alterados com type 1,A,a,I,i. O número inicial tbm pode ser alterado utilizando o comando start e definindo o número de inicio.</p>
+    <h2> Não ordenadas</h2>
+   <p>São as listas com pontos, normalmente utilizadas para produtos, todos os itens dentro sendo colocados dentro das &lt;li&gt; serão organizados podendo ser alterados com type disc, circle ou square.</p>
+   <h2>Lista de definição</h2>
+   <p>Sua tag é &lt;DL&gt; utilizando dt(termo) e dd(descrição). 
+    <p>Exemplo:<dt>JavaScript</dt>
+    <dd>Linguagem de programação para interatividade do seu site.</dd>
+</dl></p>
+<h1>Sobre links</h1>
+<h2>Internos, Externos e Downloads</h2>
+<h3>Internos</h3>
+<p 5>São os links que fazemos para acessar outras páginas dentro do nosso site. 
+    Sendo necessaria a criação de uma outra página e inserindo saeu link dentro da tag &lt;a&gt; no href. <br>Dentro do comando é possível colocar o comando de target(que é utilizado para definir como o site vai se comportar ao clicar no link sendo _self(para abrir diretamente nesse navegador), _blank(para ser aberto em outra aba) sendo esses os mais utilizados) e o comando de rel(que é para definir como o site deve ver o link sendo next(para proximas paginas), prev, unfollow(quando não há plena confiança no site ao qual vc destina o usuario), external(para sites externos)). </p>
+    <h3>Externos</h3>
+    <p>São os links utilizados para acessar outros sites ainda sendo utilizado a tag &lt;a&gt; com a adição do link do site no href, e utilizando do comando _blank dentro do target.</p>
+    <h3>Downloads</h3>
+    Para se fazer links de download, é necessario que voce tenha baixado o arquivo/foto/video do que deseja deixar para download e colocar a tag &lt;a&gt; com o comando de download adicionando aqui o nome do seu documento, e colocando o comando type com application/pdf para pdf's para outras formas como .zip são utilizados seus respectivos applications então sempre conferir no site <a href="https://iana.org/assignments/media-types/" target="_blank">iana.org </a>
+    <h1>Adicionando imagens dinâmicas,áudios e videos</h1>
+    <h2>Imagens dinâmicas</h2>
+    <p>É utilizado para criar diferentes imagens ou tamanhos da mesma imagem dependendo do tamanho da tela do usuario. <br>As mais utilizadas são 1000px(monitores ou tvs), 700px(tablets) e 400px(celulares) normalmente. A tag utilizada para isso é a &lt;picture&gt;, sendo adicionada nela a tag source media type.
+        <pre>
+            <code>
+    picture>
+    source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png">
+            source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+    img src="imagens/fotog.png" alt="imagem flexivel">
+
+        /picture>
+            </code>
+        </pre>
+        <h2>Áudios</h2>
+        <p>Para utilizar e adicionar audio no site é necessario ter baixado o som para que ele possa ser baixado ou reproduzido pelo usuario. <br>Usando a tag &lt;audio&gt; podendo ser feito de duas formas, se o som for mp3 normalmente ele funcionara em qualquer site e só precisara ser adicionado dentro do src da tag audio, mas se quiser tambem pode ser feito como o exemplo: 
+            <pre><code>
+                audio preload="metadata" autoplay controls loop>
+                source src="midia/som.mp3" type="audio/mpeg">
+                source src="midia/som.ogg" type="audio/ogg">
+                source src="midia/som.wav" type="audio/wav">
+                <p>Infelizmente seu navegador não consegue reproduzir audio <a href="midia/som.mp3">clique aqui</a> para baixar o mp3.</p>
+                        /audio>
+            </code>
+            </pre>
+       </p>
+       <h2>Videos
+       </h2>
+       <h3>Localmente</h3>
+       <p>São videos baixados e adicionados diretamente no seu site utilizando a tag &lt;video&gt;, tendo auto consumo de dados pelo seu navegador. Aqui existe a necessidade de um video baixado por isso não colocarei no exemplo apenas a forma do código. <pre><code>video src="midia/meuvideomkv.mkv" width="500" autoplay loop controls>/video ></code></pre>
+
+       </p>
+       <h3>Remotamente</h3>
+       <p>São videos que estão no seu site mas que não estão baixados diretamente nele, não tendo consumo de dados local. Eles são pegos diretamente no site ao clicar em compartilhar e depois em incorporar sendo adicionado diretamente no código do seu site. </p>
+       <h1>Estilos Inline, Internos e Externos</h1>
+       <h2>Inline</h2>
+       <p> São os comandos de estilo &lt;style&gt; sendo adicionado diretamente na linha ao qual vai fazer alteração. <br>Não é recomendado para sites profissionais.</p>
+       <h2>Internos</h2>
+       <p>É utilizado o comando &lt;style&gt; no começo do código condicionando por meio de colcheias todos os componentes em que vai se fazaer a alteração. <br>É recomendado para sites de páginas únicas.</p>
+       <h2>Externos</h2>
+       Aqui o comando &lt;style&gt; é criado em uma "página" extra como style.css e nele serão feitas todas as alterações que serão colocadas sempre no começo do código influenciando todas as paginas em que estiver inserido. <br>É o mais recomendado para todos os estilos de site sem excessão, pela sua rapida forma de alteração e manutenção.<p style="background-color: rgb(20, 122, 122);">Na pagina style.css não é necessaria utilização do código &lt;style&gt; pois ja está em uso sendo necessario apenas a alocação dos elementos que serão modificados Ex:
+       head{ algo aqui}, h1{ algo aqui},p{ algo aqui} e assim sucessivamente, podendo alterar coisas como cor, cor de fundo, alinhamento de texto, fonte, entre outros.
+
+</body>
+</html>
